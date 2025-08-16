@@ -4,6 +4,7 @@ Dự án hỗ trợ người lái xe bằng hệ thống đọc dữ liệu CAN.
 
 ## Cấu trúc thư mục
 
+```
 Parking Assistance/ 
 │
 ├── docs/                     # Tài liệu
@@ -12,16 +13,15 @@ Parking Assistance/
 │   ├── videos/               # Link/video demo (gif/mp4)
 │   └── reports/              # Báo cáo, slide thuyết trình
 │
-├── src/                      # Code chính + code test
-│   ├── firmware/             # Code nhúng chính
-│   │   ├── arduino/          # Code Arduino Mega + MCP2515
-│   │   ├── stm32/            # Code STM32 (CubeIDE hoặc Keil project)
-│   │   └── esp32/            # Code ESP32 (PlatformIO / Arduino framework)
-│   │
-│   └── code-test/            # Code test & validation
-│       ├── arduino-test/     # Test gửi/nhận CAN signal bằng Arduino
-│       ├── stm32-test/       # Test riêng cho STM32
-│       └── esp32-test/       # Test kết nối WiFi/MQTT, debug CAN <-> WebApp
+├── firmware/                 # Code nhúng chính
+│   ├── arduino/              # Code Arduino Mega + MCP2515
+│   ├── stm32/                # Code STM32 (CubeIDE hoặc Keil project)
+│   └── esp32/                # Code ESP32 (PlatformIO / Arduino framework)
+│
+├── code-test/                # Code test & validation
+│   ├── arduino-test/         # Test gửi/nhận CAN signal bằng Arduino
+│   ├── stm32-test/           # Test riêng cho STM32
+│   └── esp32-test/           # Test kết nối WiFi/MQTT, debug CAN <-> WebApp
 │
 ├── webapp/                   # Web application hiển thị & xử lý
 │   ├── backend/              # Node.js/Python (xử lý dữ liệu từ ESP32/MQTT)
@@ -37,6 +37,7 @@ Parking Assistance/
 ├── README.md                 # Giới thiệu chính, nổi bật
 ├── CONTRIBUTING.md           # Hướng dẫn đóng góp (nếu public)
 └── .gitignore
+```
 
 
 ## Cách chạy thử
