@@ -12,6 +12,6 @@ Dự án hỗ trợ người lái xe bằng hệ thống đọc dữ liệu CAN.
 - webapp/       : phát triển web và app tương ứng
 
 ## Cách chạy thử
-(ghi tạm hướng dẫn chạy code hoặc build)
+(Hướng dẫn chạy code hoặc build)
 
 
