@@ -10,6 +10,6 @@ Dự án hỗ trợ người lái xe bằng hệ thống đọc dữ liệu CAN.
 - test/        : Mã test, file log CAN, script kiểm thử
 
 ## Cách chạy thử
-(ghi tạm hướng dẫn chạy code hoặc build)
+(Hướng dẫn chạy code hoặc build)
 
 
