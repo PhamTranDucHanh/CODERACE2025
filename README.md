@@ -13,12 +13,12 @@ Parking Assistance/
 │   ├── videos/               # Link/video demo (gif/mp4)
 │   └── reports/              # Báo cáo, slide thuyết trình
 │
-├── firmware/                 # Code nhúng chính
-│   ├── arduino/              # Code Arduino Mega + MCP2515
+├── src/                 # Code nhúng chính
+│   ├── Arduino/              # Code Arduino Mega + MCP2515
 │   ├── stm32/                # Code STM32 (CubeIDE hoặc Keil project)
 │   └── esp32/                # Code ESP32 (PlatformIO / Arduino framework)
 │
-├── code-test/                # Code test & validation
+├── simulation/                # proteus
 │   ├── arduino-test/         # Test gửi/nhận CAN signal bằng Arduino
 │   ├── stm32-test/           # Test riêng cho STM32
 │   └── esp32-test/           # Test kết nối WiFi/MQTT, debug CAN <-> WebApp
